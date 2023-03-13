@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!--لغة تشفير يشتغل بجميع اللغات-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--الصفحة تشتغل في التلفون والأيباد وغيرها-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--يتم إضافة الصفحة في محركات البحث ك جوجل-->
+    <!--Title Webpage-->
+    <title>My first website</title>
+</head>
+
+<body>
+    <!--Heading-->
+    <h1> أهلا وسهلا بكم معنا </h1>
+    <h2> أهلا وسهلا بكم معنا </h2>
+    <h3> أهلا وسهلا بكم معنا </h3>
+    <h4> أهلا وسهلا بكم معنا </h4>
+    <h5> أهلا وسهلا بكم معنا </h5>
+    <h6> أهلا وسهلا بكم معنا </h6>
+
+    <P>This is my
+        <br>
+        first App
+    </P>
+
+    <!--Image-->
+    <div>
+        <img src="IMG.JPG" alt="This is my Image" width="400px" height="400px" srcset="">
+    </div>
+    <!--Table-->
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th colspan="2">Job</th>
+        </tr>
+        <tr>
+            <td>Ahmed</td>
+            <td>28</td>
+            <td>Developer</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>Mohammed</td>
+            <td>30</td>
+            <td>Analyst</td>
+            <td>Analyst</td>
+        </tr>
+    </table>
+
+    <!--unorderlist-->
+    <ul>
+        <li>GIS</li>
+        <li>GIS</li>
+        <li>GIS</li>
+        <li>GIS</li>
+    </ul>
+    <!--orderlist-->
+    <ol type="1">
+        <li>GIS</li>
+        <li>GIS</li>
+        <li>GIS</li>
+        <li>GIS</li>
+    </ol>
+
+    <!--Control+P  >Format Documment-->
+
+    <!--Form-->
+    <div>
+        <label for="username">username</label>
+        <input type="text" name="username">
+        <br>
+        <label for="password">password</label>
+        <input type="pass" name="pass">
+        <br>
+        <label for="Birthday">Birthday</label>
+        <input type="date">
+        <br>
+        <label for="email">email</label>
+        <input type="email">
+        <br>
+        <input type="submit" value="submit">
+    </div>
+
+    <!--Marquee-->
+    <marquee behavior="" direction="right"> This is my map </marquee>
+
+
+    <!--Title in body-->
+    <div>
+        <abbr title="this is my map"> Moza Alriyami</abbr>
+    </div>
+    <!--Div-->
+    <div style="color: brown;">
+        <p>myname is Moza</p>
+        <h1>GIS Developer</h1>
+    </div>
+
+    <p>myname is Moza and I am a GIS developer</p>
+
+    <pre>myname is Moza 
+    and I am a GIS developer</pre>
+
+
+    <em>Emphasized text</em>,,Emphasized text
+    <br>
+    <em style="color: blueviolet;">Emphasized text</em>,,Emphasized text
+    <br>
+    <strong>Strong text</strong>,, Strong text
+    <br>
+    <samp>Sample computer code text</samp>,, Sample computer code text
+    <br>
+    <kbd>Keyboard text</kbd>,, Keyboard text
+    <br>
+    <var>Variable</var>,, Variable
+    <br>
+
+    <!--link-->
+    <a href="https://www.google.com"> google</a>
+    <br>
+    <a href="https://www.google.com" target="_blank"> google</a>
+    <br>
+    <!--Audio-->
+    <audio controls>
+
+        <source src="https://w3schools.com/html/horse.mp3" type="audio/mpeg">
+    </audio>
+<br><br>
+
+<!--movie-->
+<video controls>
+<source src="https://w3schools.com/html/movie.mp4" type="video/mp4"></video>
+<br><br>
+<video controls width="400px" height="300px">
+    <source src="https://w3schools.com/html/movie.mp4" type="video/mp4"></video>
+
+<br><br>
+  <!--progress Bar-->   
+  <progress value="10" max="100"></progress>
+  <br><br>
+  <!--datalist-->   
+<form>
+    <input list="data">
+    <datalist id="data">
+        <option value="GIS"></option>
+        <option value="GPS"></option>
+        <option value="مساحة"></option>
+    </datalist>
+</form>
+
+<!--footer--> 
+<footer><a href="https://www.google.com" target="_blank"> google</a></footer>
+
+<!--figure--> 
+<figure>
+    <img src="IMG.JPG" alt="This is my Image" width="400px" height="400px" srcset="">
+<figcaption>They are my children</figcaption>
+</figure>
+
+<!--article (old version) & Aside (new version & better for Javasecript)--> 
+<aside>
+    <h4>GIS Analyst</h4>
+    <p>work at intersection of data analysis, programming and cartography</p>
+</aside>
+
+<Article>
+    <h4>GIS developer</h4>
+    <p>typically work as part of a team of software developers to develop GIS tools</p>
+</Article>
+
+<!--detail & summary--> 
+<details>
+    <summary>GIS developer</summary>
+    <p>typically work as part of a team of software developers to develop GIS tools</p>
+</details>
+
+<!--section (new version) & div (old version)--> 
+<div style="color: brown;">
+    <p>typically work as part of a team of software developers to develop GIS tools</p>   
+</div>
+
+<section style="color: blue;">
+    <p>typically work as part of a team of software developers to develop GIS tools</p>
+</section>
+
+<!--Time & DateTime--> 
+<p>We will push on <time>10:50</time>PM <datetime>2023-02-26 23:50</datetime></p>
+
+<!--Canvas--> 
+<canvas width="250px" height="250px" style="border: solid 5px crimson"></canvas>
+
+<!--svg--> 
+<svg width="400px" height="100px">
+    <rect width="400px" height="100px" style="fill: cornflowerblue;stroke-width: 2px; stroke:blue" />
+    <circle cx="50" cy="50" r="40"
+    stroke="green" stroke-width="4" fill="yellow"/>
+</svg>
+
+< less than &lt; &#60;
+<br>
+> greater than &gt; &#62;
+<br>
+& ampersand &amp; &#38;
+<br>
+" double quotation mark &quot; &#34;
+<br>
+' single quotation mark ( apostrophe) &apos; &#39;
+<br>
+¢ cent &cent; &#162;
+<br>
+£ pound &pound; &#163;
+<br>
+¥ yen &yen; &#165;
+<br>
+© copyright &copy; &#169;
+<br>
+® registered trademark &reg; 
+
+<br><br><br><br>
+<!--iframe-->
+<iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" frameborder="0" width="400px" height="400px"></iframe>
+<br><br><br>
+<iframe src="https://www.youtube.com/embed/owsfdh4gxyc" frameborder="0"></iframe>
+
+
+
+</body>
+
+</html>
